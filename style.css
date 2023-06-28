@@ -53,7 +53,6 @@ header {
 .jumbo {
   width: 100%;
   height: 800px;
-  /* background-color: lightslategray; */
 }
 .main-jumbo {
   width: 100%;
@@ -79,6 +78,7 @@ header {
 .jumbo-text {
   width: 20%;
   height: 315px;
+  padding-left: 50px;
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
@@ -181,7 +181,6 @@ li > .fa-check {
   width: 100%;
   height: 300px;
   margin-top: 50px;
-  /* background-color: blueviolet; */
 }
 .card-title-last {
   width: 100%;
@@ -197,7 +196,6 @@ li > .fa-check {
 .card-content-last-left {
   width: 50%;
   height: 100%;
-  /* background-color: aqua; */
 }
 .card-content-last-left > h2 {
   margin: 15px 0;
@@ -208,7 +206,7 @@ li > .fa-check {
 .card-content-last-right {
   width: 50%;
   height: 50%;
-  /* background-color: forestgreen; */
+
   text-align: end;
 }
 .card-content-last-right > .button {
@@ -223,15 +221,13 @@ li > .fa-check {
 .partner-section {
   width: 100%;
   height: 500px;
-  /* background-color: brown; */
+
   justify-content: center;
   align-items: center;
 }
 .partner-container {
-  /* background-color: darkblue; */
   width: 50%;
   height: 500px;
-  /* justify-content: center; */
   align-items: center;
 }
 .partner-image {
@@ -241,7 +237,6 @@ li > .fa-check {
   width: 100%;
 }
 .partner-text {
-  /* background-color: yellow; */
   margin-left: 100px;
   width: 30%;
   height: 410px;
@@ -252,4 +247,42 @@ li > .fa-check {
   width: fit-content;
   padding: 10px 50px;
   border: 1px solid black;
+}
+
+/*  SECTION-PRODUCT */
+
+.product-section {
+  width: 100%;
+  min-height: 500px;
+
+  justify-content: center;
+  align-items: center;
+}
+.product-container {
+  width: 50%;
+  height: 900px;
+  flex-direction: column;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.product-title {
+  width: 100%;
+  height: 50px;
+}
+.product-cards {
+  width: 100%;
+  min-height: 600px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.prd-card {
+  width: calc(100% / 3);
+}
+.prd-img {
+  width: 100%;
+  height: 50%;
+}
+.prd-img > img {
+  width: 100%;
+  height: 100%;
 }
