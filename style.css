@@ -10,6 +10,35 @@
   display: flex;
 }
 
+/* PALETTE */
+.green {
+  background-color: green;
+}
+.red {
+  background-color: red;
+}
+.lightblue {
+  background-color: lightblue;
+}
+.darkred {
+  background-color: darkred;
+}
+.blue {
+  background-color: blue;
+}
+.darkblue {
+  background-color: darkblue;
+}
+.dodgerblue {
+  background-color: dodgerblue;
+}
+.lightgreen {
+  background-color: lightgreen;
+}
+.gold {
+  background-color: goldenrod;
+}
+
 /* GENERALS */
 
 .button {
@@ -285,4 +314,59 @@ li > .fa-check {
 .prd-img > img {
   width: 100%;
   height: 100%;
+}
+
+/* PARTNERSHIP SECTION */
+
+.partnership-section-1 {
+  width: 100%;
+  height: 200px;
+  justify-content: center;
+}
+.partnership-text {
+  width: 400px;
+  height: 100px;
+}
+.partnership-text > p {
+  margin-top: 40px;
+}
+.partnership-section-2 {
+  background-color: violet;
+  width: 100%;
+  height: 400px;
+}
+
+.prt-sect {
+  width: calc(100% / 3);
+  height: 400px;
+  flex-wrap: wrap;
+}
+.prt-text {
+  flex-direction: column;
+  padding-top: 30px;
+  padding-left: 30px;
+  background-color: white;
+}
+.prt-box {
+  width: 50%;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.prt-box > img {
+  width: 50%;
+  filter: invert(100%);
+}
+.prt-text > img {
+  width: 50%;
+}
+.greenbox {
+  width: 90%;
+  height: 90%;
+  justify-content: center;
+  align-items: center;
+}
+.greenbox > img {
+  width: 50%;
+  filter: invert(100%);
 }
